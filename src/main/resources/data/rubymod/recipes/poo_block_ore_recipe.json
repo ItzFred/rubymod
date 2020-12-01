@@ -1,0 +1,13 @@
+{
+  "group": "rubymod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "rubymod:poo_block"
+    }
+  ],
+  "result": {
+    "item": "rubymod:poo",
+    "count": 9
+  }
+}

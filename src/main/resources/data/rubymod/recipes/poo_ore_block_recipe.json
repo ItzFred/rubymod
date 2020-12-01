@@ -1,0 +1,42 @@
+{
+  "group": "rubymod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "rubymod:poo"
+    },
+    "1": {
+      "item": "rubymod:poo"
+    },
+    "2": {
+      "item": "rubymod:poo"
+    },
+    "3": {
+      "item": "rubymod:poo"
+    },
+    "4": {
+      "item": "rubymod:poo"
+    },
+    "5": {
+      "item": "rubymod:poo"
+    },
+    "6": {
+      "item": "rubymod:poo"
+    },
+    "7": {
+      "item": "rubymod:poo"
+    },
+    "8": {
+      "item": "rubymod:poo"
+    }
+  },
+  "result": {
+    "item": "rubymod:poo_block",
+    "count": 1
+  }
+}

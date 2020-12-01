@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "rubymod:oil",
+    "rubymod:oil_flowing"
+  ]
+}

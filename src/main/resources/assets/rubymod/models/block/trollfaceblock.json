@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "rubymod:blocks/trollface_non-free",
+    "particle": "rubymod:blocks/trollface_non-free"
+  }
+}
