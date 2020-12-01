@@ -33,6 +33,7 @@ import net.minecraft.block.Blocks;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
+import net.mcreator.rubymod.item.ColeeItem;
 import net.mcreator.rubymod.RubymodModElements;
 
 import java.util.Random;
@@ -65,7 +66,7 @@ public class CoolBlockBlock extends RubymodModElements.ModElement {
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(this, 1));
+			return Collections.singletonList(new ItemStack(ColeeItem.block, (int) (1)));
 		}
 
 		@OnlyIn(Dist.CLIENT)

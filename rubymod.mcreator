@@ -298,6 +298,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "pog_p_ls_recip"
+    },
+    {
+      "name": "Colee",
+      "type": "item",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "colee"
     }
   ],
   "variable_elements": [],
@@ -316,6 +325,7 @@
       "block.rubymod.end_pogg": "End ",
       "block.rubymod.ruby_ore": "Ruby Ore",
       "item.rubymod.ruby_tool_shovel": "RubyTool Shovel",
+      "item.rubymod.colee": "Colee",
       "item.rubymod.ruby_tool_hoe": "RubyTool Hoe",
       "block.rubymod.end_pog_plus": "End Pogchamp +",
       "item.rubymod.ruby_aromr_armor_boots": "RubyAromr Boots"
