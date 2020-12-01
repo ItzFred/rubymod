@@ -1,0 +1,26 @@
+{
+  "group": "rubymod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "rubymod:ruby"
+    },
+    "2": {
+      "item": "rubymod:ruby"
+    },
+    "3": {
+      "item": "rubymod:ruby"
+    },
+    "5": {
+      "item": "rubymod:ruby"
+    }
+  },
+  "result": {
+    "item": "rubymod:ruby_aromr_armor_boots",
+    "count": 1
+  }
+}

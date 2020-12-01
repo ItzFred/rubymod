@@ -1,0 +1,235 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "Ruby",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby"
+    },
+    {
+      "name": "RubyOre",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_ore"
+    },
+    {
+      "name": "RubyBlock",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_block"
+    },
+    {
+      "name": "RubyOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_ore_block_recipe"
+    },
+    {
+      "name": "RubyBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_block_ore_recipe"
+    },
+    {
+      "name": "RubyOreSmelting",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_ore_smelting"
+    },
+    {
+      "name": "RubyToolPickaxe",
+      "type": "tool",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_tool_pickaxe"
+    },
+    {
+      "name": "RubyToolAxe",
+      "type": "tool",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_tool_axe"
+    },
+    {
+      "name": "RubyToolSword",
+      "type": "tool",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_tool_sword"
+    },
+    {
+      "name": "RubyToolShovel",
+      "type": "tool",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_tool_shovel"
+    },
+    {
+      "name": "RubyToolHoe",
+      "type": "tool",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_tool_hoe"
+    },
+    {
+      "name": "RubyToolPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_tool_pickaxe_recipe"
+    },
+    {
+      "name": "RubyToolAxeRecipe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_tool_axe_recipe"
+    },
+    {
+      "name": "RubyToolSwordRecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_tool_sword_recipe"
+    },
+    {
+      "name": "RubyToolShovelRecipe",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_tool_shovel_recipe"
+    },
+    {
+      "name": "RubyToolHoeRecipe",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_tool_hoe_recipe"
+    },
+    {
+      "name": "RubyAromrArmor",
+      "type": "armor",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_aromr_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "RubyAromrArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_aromr_armor_helmet_recipe"
+    },
+    {
+      "name": "RubyAromrArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_aromr_armor_body_recipe"
+    },
+    {
+      "name": "RubyAromrArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_aromr_armor_leggings_recipe"
+    },
+    {
+      "name": "RubyAromrArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_aromr_armor_boots_recipe"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.rubymod.ruby_tool_sword": "RubyTool Sword",
+      "item.rubymod.ruby_aromr_armor_helmet": "RubyAromr Helmet",
+      "item.rubymod.ruby_aromr_armor_chestplate": "RubyAromr Chestplate",
+      "item.rubymod.ruby": "Ruby",
+      "item.rubymod.ruby_tool_axe": "RubyTool Axe",
+      "item.rubymod.ruby_tool_pickaxe": "RubyTool Pickaxe",
+      "item.rubymod.ruby_aromr_armor_leggings": "RubyAromr Leggings",
+      "block.rubymod.ruby_block": "Block of Ruby",
+      "block.rubymod.ruby_ore": "Ruby Ore",
+      "item.rubymod.ruby_tool_shovel": "RubyTool Shovel",
+      "item.rubymod.ruby_tool_hoe": "RubyTool Hoe",
+      "item.rubymod.ruby_aromr_armor_boots": "RubyAromr Boots"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "rubymod",
+    "modName": "rubymod",
+    "version": "1.0.0",
+    "author": "Fred Brandibur, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.15.2",
+    "modElementsPackage": "net.mcreator.rubymod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000546519
+}

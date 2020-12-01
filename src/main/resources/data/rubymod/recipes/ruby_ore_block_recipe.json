@@ -1,0 +1,42 @@
+{
+  "group": "rubymod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "rubymod:ruby"
+    },
+    "1": {
+      "item": "rubymod:ruby"
+    },
+    "2": {
+      "item": "rubymod:ruby"
+    },
+    "3": {
+      "item": "rubymod:ruby"
+    },
+    "4": {
+      "item": "rubymod:ruby"
+    },
+    "5": {
+      "item": "rubymod:ruby"
+    },
+    "6": {
+      "item": "rubymod:ruby"
+    },
+    "7": {
+      "item": "rubymod:ruby"
+    },
+    "8": {
+      "item": "rubymod:ruby"
+    }
+  },
+  "result": {
+    "item": "rubymod:ruby_block",
+    "count": 1
+  }
+}
