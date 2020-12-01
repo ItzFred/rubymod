@@ -204,6 +204,44 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "cool_block"
+    },
+    {
+      "name": "EndPoggOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "end_pogg_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EndPogg",
+      "type": "block",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "end_pogg"
     }
   ],
   "variable_elements": [],
@@ -219,6 +257,7 @@
       "item.rubymod.ruby_tool_pickaxe": "RubyTool Pickaxe",
       "item.rubymod.ruby_aromr_armor_leggings": "RubyAromr Leggings",
       "block.rubymod.ruby_block": "Block of Ruby",
+      "block.rubymod.end_pogg": "End ",
       "block.rubymod.ruby_ore": "Ruby Ore",
       "item.rubymod.ruby_tool_shovel": "RubyTool Shovel",
       "item.rubymod.ruby_tool_hoe": "RubyTool Hoe",
