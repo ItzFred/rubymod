@@ -242,6 +242,62 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "end_pogg"
+    },
+    {
+      "name": "EndPogPlus",
+      "type": "block",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "end_pog_plus"
+    },
+    {
+      "name": "EndPogPlusOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "end_pog_plus_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PogRecip",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pog_recip"
+    },
+    {
+      "name": "PogPLsRecip",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pog_p_ls_recip"
     }
   ],
   "variable_elements": [],
@@ -261,6 +317,7 @@
       "block.rubymod.ruby_ore": "Ruby Ore",
       "item.rubymod.ruby_tool_shovel": "RubyTool Shovel",
       "item.rubymod.ruby_tool_hoe": "RubyTool Hoe",
+      "block.rubymod.end_pog_plus": "End Pogchamp +",
       "item.rubymod.ruby_aromr_armor_boots": "RubyAromr Boots"
     }
   },
