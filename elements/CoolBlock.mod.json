@@ -99,14 +99,11 @@
     "blocksToReplace": [
       {
         "value": "Blocks.STONE"
-      },
-      {
-        "value": "Blocks.AIR"
       }
     ],
     "frequencyPerChunks": 16,
     "frequencyOnChunk": 16,
-    "minGenerateHeight": 200,
-    "maxGenerateHeight": 220
+    "minGenerateHeight": 30,
+    "maxGenerateHeight": 100
   }
 }
