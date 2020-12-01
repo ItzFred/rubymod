@@ -1,0 +1,16 @@
+{
+  "group": "rubymod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "rubymod:colee"
+    },
+    {
+      "item": "rubymod:colee"
+    }
+  ],
+  "result": {
+    "item": "rubymod:cool_block_animat",
+    "count": 1
+  }
+}

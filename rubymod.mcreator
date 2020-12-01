@@ -307,6 +307,24 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "colee"
+    },
+    {
+      "name": "CoolBlockAnimat",
+      "type": "block",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cool_block_animat"
+    },
+    {
+      "name": "Abimatescoolbloc",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "abimatescoolbloc"
     }
   ],
   "variable_elements": [],
@@ -327,6 +345,7 @@
       "item.rubymod.ruby_tool_shovel": "RubyTool Shovel",
       "item.rubymod.colee": "Colee",
       "item.rubymod.ruby_tool_hoe": "RubyTool Hoe",
+      "block.rubymod.cool_block_animat": "Cool Block yes cool",
       "block.rubymod.end_pog_plus": "End Pogchamp +",
       "item.rubymod.ruby_aromr_armor_boots": "RubyAromr Boots"
     }
