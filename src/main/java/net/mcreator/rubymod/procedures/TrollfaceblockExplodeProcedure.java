@@ -1,23 +1,11 @@
 package net.mcreator.rubymod.procedures;
 
-import net.minecraftforge.fml.server.ServerLifecycleHooks;
-
-import net.minecraft.world.World;
-import net.minecraft.world.IWorld;
-import net.minecraft.world.Explosion;
-import net.minecraft.util.text.StringTextComponent;
-import net.minecraft.server.MinecraftServer;
-import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.entity.Entity;
-
-import net.mcreator.rubymod.RubymodModElements;
-
-import java.util.Map;
-
 @RubymodModElements.ModElement.Tag
 public class TrollfaceblockExplodeProcedure extends RubymodModElements.ModElement {
+
 	public TrollfaceblockExplodeProcedure(RubymodModElements instance) {
 		super(instance, 22);
+
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
@@ -46,11 +34,13 @@ public class TrollfaceblockExplodeProcedure extends RubymodModElements.ModElemen
 				System.err.println("Failed to load dependency world for procedure TrollfaceblockExplode!");
 			return;
 		}
+
 		Entity entity = (Entity) dependencies.get("entity");
 		double x = dependencies.get("x") instanceof Integer ? (int) dependencies.get("x") : (double) dependencies.get("x");
 		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		IWorld world = (IWorld) dependencies.get("world");
+
 		if (world instanceof World && !world.getWorld().isRemote) {
 			world.getWorld().createExplosion(null, (int) x, (int) y, (int) z, (float) 4, Explosion.Mode.BREAK);
 		}
@@ -61,5 +51,7 @@ public class TrollfaceblockExplodeProcedure extends RubymodModElements.ModElemen
 			if (mcserv != null)
 				mcserv.getPlayerList().sendMessage(new StringTextComponent("u mad?"));
 		}
+
 	}
+
 }

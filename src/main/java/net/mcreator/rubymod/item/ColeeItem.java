@@ -2,13 +2,13 @@
 package net.mcreator.rubymod.item;
 
 @RubymodModElements.ModElement.Tag
-public class PooItem extends RubymodModElements.ModElement {
+public class ColeeItem extends RubymodModElements.ModElement {
 
-	@ObjectHolder("rubymod:poo")
+	@ObjectHolder("rubymod:colee")
 	public static final Item block = null;
 
-	public PooItem(RubymodModElements instance) {
-		super(instance, 24);
+	public ColeeItem(RubymodModElements instance) {
+		super(instance, 28);
 
 	}
 
@@ -20,8 +20,8 @@ public class PooItem extends RubymodModElements.ModElement {
 	public static class ItemCustom extends Item {
 
 		public ItemCustom() {
-			super(new Item.Properties().group(EpictabItemGroup.tab).maxStackSize(64).rarity(Rarity.EPIC));
-			setRegistryName("poo");
+			super(new Item.Properties().group(ItemGroup.MISC).maxStackSize(64).rarity(Rarity.COMMON));
+			setRegistryName("colee");
 		}
 
 		@Override

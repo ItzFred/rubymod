@@ -1,17 +1,9 @@
 
 package net.mcreator.rubymod.itemgroup;
 
-import net.minecraftforge.api.distmarker.OnlyIn;
-import net.minecraftforge.api.distmarker.Dist;
-
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
-
-import net.mcreator.rubymod.item.TrollfaceItem;
-import net.mcreator.rubymod.RubymodModElements;
-
 @RubymodModElements.ModElement.Tag
 public class EpictabItemGroup extends RubymodModElements.ModElement {
+
 	public EpictabItemGroup(RubymodModElements instance) {
 		super(instance, 23);
 	}
@@ -31,5 +23,7 @@ public class EpictabItemGroup extends RubymodModElements.ModElement {
 			}
 		}.setBackgroundImageName("item_search.png");
 	}
+
 	public static ItemGroup tab;
+
 }

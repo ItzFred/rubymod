@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "rubymod:blocks/poggerplus",
+    "particle": "rubymod:blocks/poggerplus"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "group": "rubymod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:dirt"
+    }
+  },
+  "result": {
+    "item": "rubymod:end_pogg",
+    "count": 1
+  }
+}

@@ -3,11 +3,11 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "rubymod:poo_block"
+      "item": "rubymod:unknown_element"
     }
   ],
   "result": {
-    "item": "rubymod:poo",
+    "item": "rubymod:unknown_element",
     "count": 9
   }
 }

@@ -197,6 +197,45 @@
       "registry_name": "ruby_aromr_armor_boots_recipe"
     },
     {
+      "name": "PooOre",
+      "type": "block",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "poo_ore"
+    },
+    {
+      "name": "OiledOnPotionActiveTick",
+      "type": "procedure",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "oiled_on_potion_active_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PooBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "poo_block_ore_recipe"
+    },
+    {
       "name": "TrollfaceblockExplode",
       "type": "procedure",
       "sortid": 22,
@@ -230,6 +269,24 @@
       }
     },
     {
+      "name": "PooBlock",
+      "type": "block",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "poo_block"
+    },
+    {
+      "name": "Poo",
+      "type": "item",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "poo"
+    },
+    {
       "name": "Trollfaceblock",
       "type": "block",
       "sortid": 22,
@@ -248,6 +305,15 @@
       "registry_name": "epictab"
     },
     {
+      "name": "Oil",
+      "type": "fluid",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "oil"
+    },
+    {
       "name": "Trollface",
       "type": "item",
       "sortid": 23,
@@ -255,51 +321,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "trollface"
-    },
-    {
-      "name": "Poo",
-      "type": "item",
-      "sortid": 24,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "poo"
-    },
-    {
-      "name": "PooOre",
-      "type": "block",
-      "sortid": 25,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "poo_ore"
-    },
-    {
-      "name": "PooBlock",
-      "type": "block",
-      "sortid": 26,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "poo_block"
-    },
-    {
-      "name": "PooOreBlockRecipe",
-      "type": "recipe",
-      "sortid": 27,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "poo_ore_block_recipe"
-    },
-    {
-      "name": "PooBlockOreRecipe",
-      "type": "recipe",
-      "sortid": 28,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "poo_block_ore_recipe"
     },
     {
       "name": "PooOreSmelting",
@@ -311,34 +332,13 @@
       "registry_name": "poo_ore_smelting"
     },
     {
-      "name": "Oil",
-      "type": "fluid",
-      "sortid": 30,
+      "name": "PooOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 27,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "oil"
-    },
-    {
-      "name": "OiledOnPotionActiveTick",
-      "type": "procedure",
-      "sortid": 31,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "oiled_on_potion_active_tick",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
+      "registry_name": "poo_ore_block_recipe"
     },
     {
       "name": "Oiled",
@@ -348,36 +348,155 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "oiled"
+    },
+    {
+      "name": "EndPogg",
+      "type": "block",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "end_pogg"
+    },
+    {
+      "name": "EndPogPlus",
+      "type": "block",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "end_pog_plus"
+    },
+    {
+      "name": "EndPogPlusOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "end_pog_plus_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Colee",
+      "type": "item",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "colee"
+    },
+    {
+      "name": "PogRecip",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pog_recip"
+    },
+    {
+      "name": "PogPLsRecip",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pog_p_ls_recip"
+    },
+    {
+      "name": "CoolBlockAnimat",
+      "type": "block",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cool_block_animat"
+    },
+    {
+      "name": "CoolBlock",
+      "type": "block",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cool_block"
+    },
+    {
+      "name": "EndPoggOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "end_pogg_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Abimatescoolbloc",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "abimatescoolbloc"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.minecraft.tipped_arrow.effect.oiled": "Arrow of Oiled",
       "item.rubymod.ruby_aromr_armor_helmet": "RubyAromr Helmet",
       "item.rubymod.ruby_aromr_armor_chestplate": "RubyAromr Chestplate",
       "item.rubymod.ruby_tool_axe": "RubyTool Axe",
       "item.rubymod.ruby_tool_pickaxe": "RubyTool Pickaxe",
       "block.rubymod.ruby_block": "Block of Ruby",
-      "block.rubymod.poo_ore": "Poo Ore",
-      "item.minecraft.lingering_potion.effect.oiled": "Lingering Oiled",
       "item.rubymod.ruby_tool_shovel": "RubyTool Shovel",
-      "item.rubymod.oil_bucket": "Oil Bucket",
+      "block.rubymod.end_pog_plus": "End Pogchamp +",
       "item.rubymod.ruby_tool_sword": "RubyTool Sword",
-      "item.rubymod.trollface": "Trollface",
-      "block.rubymod.poo_block": "Block of Poo",
       "item.rubymod.ruby": "Ruby",
-      "item.rubymod.poo": "Poo",
-      "item.minecraft.potion.effect.oiled": "Oiled",
       "item.rubymod.ruby_aromr_armor_leggings": "RubyAromr Leggings",
-      "itemGroup.tabepictab": "rubymod",
-      "fluid.oil": "Oil",
-      "block.rubymod.trollfaceblock": "Trollface",
+      "block.rubymod.end_pogg": "End ",
       "block.rubymod.ruby_ore": "Ruby Ore",
-      "item.minecraft.splash_potion.effect.oiled": "Splash Oiled",
       "item.rubymod.ruby_tool_hoe": "RubyTool Hoe",
-      "effect.oiled": "Oil",
       "item.rubymod.ruby_aromr_armor_boots": "RubyAromr Boots"
     }
   },
@@ -397,5 +516,5 @@
     "modElementsPackage": "net.mcreator.rubymod",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202000547418
+  "mcreatorVersion": 202000546519
 }
